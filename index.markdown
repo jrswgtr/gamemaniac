@@ -1,8 +1,9 @@
 ---
 layout: home
-title:  "GameManiac"
+title:  "Home"
 header_img: assets/img/games.jpg
 permalink: /
+meta_description: 'De beste shop voor de vetste games'
 ---
 ## Welkom bij GameManiac
 We zijn een kleine winkel waar je alleen echt vette spellen kunt kopen. 

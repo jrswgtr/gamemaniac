@@ -137,6 +137,19 @@ body h1, body h2, body h3, body h4, body h5 {
   border-top-left-radius: 3px;
   border-bottom-left-radius: 3px;
 }
+.game-item .release {
+  position: absolute;
+  display: inline-block;
+  top: 30px;
+  left: 0;
+  background-color: #4CAF50;
+  color: #fff;
+  font-weight: bold;
+  font-size: 22px;
+  padding: 10px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
 .game-item .game-title {
   position: absolute;
   right: 15px;

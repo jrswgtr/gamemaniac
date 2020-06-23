@@ -1,4 +1,4 @@
-<div class="cell large-4">
+<div class="cell medium-6 large-4">
     <a class="game-item" href="{{ game.url }}">
         <div class="game-img-container">
             <div class="game-img" style="background-image: url(/{{ game.image }});"></div>
@@ -6,6 +6,9 @@
         <h3 class="game-title">{{ game.title }}</h3>
         {% if game.price != null %}
             <span class="price">&euro; {{ game.price }}</span>
+        {% endif %}
+        {% if game.release_date != null %}
+        <span class="release">{{ game.release_date }}</span>
         {% endif %}
     </a>
 </div>

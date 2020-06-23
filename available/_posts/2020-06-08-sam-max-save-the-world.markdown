@@ -9,6 +9,7 @@ youtube_id: XHXBuawNh5A
 platform: Windows 7
 cpu: Intel i3 3500+
 ram: 4 GB
+meta_description: 'Het is een slechte wereld daarbuiten. Word te zelfgenoegzaam en allerlei gekken komen uit het houtwerk.'
 ---
 ![Screenshot](/assets/img/sam-max-screen-1.jpg)
 

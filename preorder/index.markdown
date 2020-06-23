@@ -1,6 +1,7 @@
 ---
 layout: preorder
 title:  "GameManiac"
+header_img: assets/img/games.jpg
 permalink: /preorder
 ---
 ## Aankomende parels

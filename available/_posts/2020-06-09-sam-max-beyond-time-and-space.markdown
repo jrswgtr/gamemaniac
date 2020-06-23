@@ -9,6 +9,7 @@ youtube_id: kKj01ok-BmU
 platform: Windows 7
 cpu: Intel i3 3500+
 ram: 4 GB
+meta_description: 'Sam & Max Seizoen Twee (ook Sam & Max Beyond Time and Space) is het tweede seizoen van de Sam & Max'
 ---
 ![Screenshot](/assets/img/sam-max-screen-2.jpg)
 
