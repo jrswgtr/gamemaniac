@@ -1,0 +1,54 @@
+---
+layout: default
+---
+<section class="section-game-content">
+    <div class="grid-container">
+        <div class="grid-x grid-padding-x grid-padding-y">
+            <div class="cell large-8">
+                <h1 class="game-title">{{ page.title }}</h1>
+                {{ content }}
+            </div>
+            <div class="cell large-4">
+                <div class="sidebar">
+                    <div class="block indigo system-requirements">
+                        <h2>Systeemvereisten</h2>
+                        <table class="table">
+                            {% if page.platform != null %}
+                            <tr>
+                                <th>Platform</th>
+                                <td>{{ page.platform }}</td>
+                            </tr>
+                            {% endif %}
+                            {% if page.cpu != null %}
+                            <tr>
+                                <th>Processor</th>
+                                <td>{{ page.cpu }}</td>
+                            </tr>
+                            {% endif %}
+                            {% if page.ram != null %}
+                            <tr>
+                                <th>Werkgeheugen</th>
+                                <td>{{ page.ram }}</td>
+                            </tr>
+                            {% endif %}
+                        </table>
+                    </div>
+                </div>
+                {% if page.youtube_id != null %}
+                <div class="trailer block green">
+                    <h2>Trailer</h2>
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/{{page.youtube_id}}"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen>
+                        </iframe>
+                    </div>
+
+                </div>
+                {% endif %}
+            </div>
+
+        </div>
+    </div>
+</section>
