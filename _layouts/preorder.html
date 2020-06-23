@@ -1,0 +1,26 @@
+---
+layout: default
+---
+<section class="section-home-content">
+    <div class="grid-container">
+        <div class="grid-x grid-padding-x grid-padding-y">
+            <div class="cell">
+                {{ content }}
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section-game-overview">
+    <div class="grid-container">
+        <div class="grid-x grid-padding-x grid-padding-y">
+            <div class="cell">
+                <h2>Pre-order nu!</h2>
+            </div>
+        </div>
+        <div class="grid-x grid-padding-x grid-padding-y">
+            {% for game in site.categories.preorder %}
+                {% include game-item.html %}
+            {% endfor %}
+        </div>
+    </div>
+</section>

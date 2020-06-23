@@ -1,0 +1,11 @@
+<div class="cell large-4">
+    <a class="game-item" href="{{ game.url }}">
+        <div class="game-img-container">
+            <div class="game-img" style="background-image: url(/{{ game.image }});"></div>
+        </div>
+        <h3 class="game-title">{{ game.title }}</h3>
+        {% if game.price != null %}
+            <span class="price">&euro; {{ game.price }}</span>
+        {% endif %}
+    </a>
+</div>
